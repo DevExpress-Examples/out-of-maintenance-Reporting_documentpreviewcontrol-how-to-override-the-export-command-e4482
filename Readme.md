@@ -6,8 +6,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml.cs](./CS/MinimalisticReportPreviewDemo/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MinimalisticReportPreviewDemo/MainWindow.xaml.vb))
-* **[MyDocumentPreviewControl.cs](./CS/MinimalisticReportPreviewDemo/MyDocumentPreviewControl.cs) (VB: [MyDocumentPreviewControl.vb](./VB/MinimalisticReportPreviewDemo/MyDocumentPreviewControl.vb))**
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* **[MyDocumentPreviewControl.cs](./CS/MyDocumentPreviewControl.cs) (VB: [MyDocumentPreviewControl.vb](./VB/MyDocumentPreviewControl.vb))**
 <!-- default file list end -->
 # DocumentPreviewControl - How to override the Export command 
 
