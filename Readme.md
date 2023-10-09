@@ -1,19 +1,18 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128598034/22.2.2%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4482)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# Reporting for WinForms - Override Export Command in Document Preview
 
-* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
-* **[MyDocumentPreviewControl.cs](./CS/MyDocumentPreviewControl.cs) (VB: [MyDocumentPreviewControl.vb](./VB/MyDocumentPreviewControl.vb))**
-<!-- default file list end -->
-# DocumentPreviewControl - How to override the Export command 
+This example demonstrates how to override commands in [DocumentPreview](https://docs.devexpress.com/WPF/9697/controls-and-libraries/printing-exporting/concepts/document-preview). The technique is to create a descendant of [DocumentPreviewControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.DocumentPreviewControl) and override its methods, in this example `Export`.
 
+![Reporting for WinForms - Override Export Command in Document Preview](Images/screenshot.png)
 
-<p>This example demonstrates how to override commands in the <a href="https://documentation.devexpress.com/#WPF/CustomDocument9697">Document Preview</a> (<a href="https://documentation.devexpress.com/#WPF/clsDevExpressXpfPrintingDocumentPreviewControltopic">DocumentPreviewControl</a>). Create a DocumentPreviewControl descendant and override the required (e.g., Export) methods.<br><strong><br>See also</strong><strong>:<br></strong><a href="https://www.devexpress.com/Support/Center/p/E4631">DocumentPreviewControl - How to override the Print and PrintDirect (Quick Print) commands</a> <strong><br></strong><a href="https://www.devexpress.com/Support/Center/p/E2974">How to remove standard bar items and add custom ones to the DocumentPreview toolbar</a></p>
+## Files to Review:
 
-<br/>
+* [MainWindow.xaml.cs](./CS/ReportingWpfOverrideExportCommand/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ReportingWpfOverrideExportCommandVB/MainWindow.xaml.vb))
+* **[MyDocumentPreviewControl.cs](./CS/ReportingWpfOverrideExportCommand/MyDocumentPreviewControl.cs) (VB: [MyDocumentPreviewControl.vb](./VB/ReportingWpfOverrideExportCommandVB/MyDocumentPreviewControl.vb))**
 
+## Documentation
 
+- [Override Document Preview Commands](https://docs.devexpress.com/XtraReports/115362/wpf-reporting/wpf-reporting-document-preview/api-and-customization/override-document-preview-commands)
+
+## More Examples
+
+- [Reporting for WPF - Override Print and PrintDirect (Quick Print) Commands in Document Preview](https://github.com/DevExpress-Examples/reporting-wpf-override-print-commands)
